@@ -1,0 +1,53 @@
+
+        .main1 {
+            height: 100vh;
+            background: linear-gradient(rgb(70, 70, 202), rgb(214, 68, 92));
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        .box1 {
+            font-size: 50px;
+            font-family: cursive;
+            font-weight: 500;
+            margin-top: 40px;
+        }
+
+        .box2 {
+            display: flex;
+            height: 250px;
+            font-family: cursive;
+            background: cornsilk;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 350px;
+            padding: 10px;
+        }
+
+        #likeid {
+            height: 30px;
+            width: 50px;
+            color: rgb(55, 0, 255);
+            border: 2px solid black;
+            font-family: fantasy;
+
+        }
+
+        #inp1 {
+            height: 24px;
+            width: 200px;
+            color: purple;
+            border: 2px solid black;
+    
+
+        }
+
+        #commentid {
+            height: 30px;
+            color: red;
+            border: 2px solid black;
+            font-family: fantasy;
+
+        }
