@@ -1,0 +1,41 @@
+
+        body {
+            margin: 0;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: pink;
+        }
+
+        .maindiv {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            flex: 1;
+            height: 100vh;
+
+        }
+
+        .row1,
+        .row3,
+        .row5,
+        .row2,
+        .row4,
+        .row6,
+        .row7,
+        .row8,
+        .row9 {
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+            border: 1px solid black;
+            width: 80%;
+
+        }
